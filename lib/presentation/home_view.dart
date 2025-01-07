@@ -5,12 +5,6 @@ class HomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      bottomNavigationBar: NavigationBar(
-        destinations: [
-          
-        ],
-      ),
-    );
+    return Container();
   }
 }

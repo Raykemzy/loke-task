@@ -9,6 +9,7 @@ class AppTheme {
   static const Color _badgeColor = Color(0xFFB5B2FF);
   static const Color _containerColor = Color(0xFF232A2E);
   static const Color _errorColor = Color(0xFFF34E4E);
+  static const Color _navbarColor = Color(0xFF0F1115);
 
   // 🅰️ Font Sizes
   static final double _titleLargeFontSize = 34.sp;
@@ -31,7 +32,7 @@ class AppTheme {
       onSecondary: _badgeColor,
       error: _errorColor,
       onError: Colors.transparent,
-      surface: Colors.transparent,
+      surface: _navbarColor,
       onSurface: Colors.white,
     ),
     textTheme: TextTheme(
