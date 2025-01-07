@@ -7,4 +7,10 @@ extension ContextExtension on BuildContext {
   double get height => MediaQuery.of(this).size.height;
 
   double get width => MediaQuery.of(this).size.width;
+
+  bool get isSmallScreen {
+    double screenWidth = MediaQuery.of(this).size.width;
+    print(screenWidth);
+    return screenWidth < 600;
+  }
 }

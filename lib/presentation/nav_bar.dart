@@ -38,6 +38,7 @@ class _NavBarState extends State<NavBar> {
             label: '',
             icon: AppNavBarItem(assetPath: Assets.svgs.flame, hasBadge: true),
             selectedIcon: AppNavBarItem(
+              hasBadge: true,
               assetPath: Assets.svgs.flame,
               color: context.theme.primaryColor,
             ),
@@ -60,7 +61,13 @@ class _NavBarState extends State<NavBar> {
             ),
           ),
         ],
+        onDestinationSelected: _selectTab,
       ),
     );
+  }
+
+  void _selectTab(int index) {
+    selectedIndex = index;
+    setState(() {});
   }
 }

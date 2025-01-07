@@ -25,7 +25,6 @@ class OptionContainer extends StatelessWidget {
         duration: const Duration(milliseconds: 200),
         curve: Curves.easeInOut,
         width: containerWidth,
-        height: 60.h,
         decoration: BoxDecoration(
           color: context.theme.colorScheme.onPrimary,
           borderRadius: BorderRadius.circular(12.sp),

@@ -24,7 +24,7 @@ class BioSection extends StatelessWidget {
                   width: context.width / 1.5,
                   child: Text(
                     'What is your favorite time of the day?',
-                    style: context.theme.textTheme.titleMedium,
+                    style: context.theme.textTheme.titleMedium?.copyWith(height: 1),
                   ),
                 ),
               ),
