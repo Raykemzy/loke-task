@@ -38,17 +38,16 @@ class _NavBarState extends State<NavBar> {
             label: '',
             icon: AppNavBarItem(assetPath: Assets.svgs.flame, hasBadge: true),
             selectedIcon: AppNavBarItem(
-              hasBadge: true,
               assetPath: Assets.svgs.flame,
               color: context.theme.primaryColor,
             ),
           ),
           NavigationDestination(
             label: '',
-            icon: AppNavBarItem(assetPath: Assets.svgs.icons, hasBadge: true),
+            icon: AppNavBarItem(assetPath: Assets.svgs.icons, badgeCount: 10),
             selectedIcon: AppNavBarItem(
-              hasBadge: true,
-              assetPath: Assets.svgs.profile,
+              badgeCount: 10,
+              assetPath: Assets.svgs.icons,
               color: context.theme.primaryColor,
             ),
           ),
