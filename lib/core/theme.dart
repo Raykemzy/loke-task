@@ -10,6 +10,7 @@ class AppTheme {
   static const Color _containerColor = Color(0xFF232A2E);
   static const Color _errorColor = Color(0xFFF34E4E);
   static const Color _navbarColor = Color(0xFF0F1115);
+  static const Color _defaultRegularTextColor = Color(0xFFC4C4C4);
 
   // 🅰️ Font Sizes
   static final double _titleLargeFontSize = 34.sp;
@@ -60,11 +61,13 @@ class AppTheme {
         fontFamily: _defaultFontFamily,
         fontSize: _bodyLargeFontSize,
         fontWeight: FontWeight.w400,
+        color: _defaultRegularTextColor,
       ),
       bodyMedium: TextStyle(
         fontFamily: _defaultFontFamily,
         fontSize: _bodyMediumFontSize,
         fontWeight: FontWeight.w500,
+        color: _defaultRegularTextColor,
       ),
     ),
   );

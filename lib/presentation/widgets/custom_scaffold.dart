@@ -39,7 +39,7 @@ class CustomScaffold extends StatelessWidget {
             Align(
               alignment: Alignment.bottomCenter,
               child: Container(
-                height: context.height / 2.5,
+                height: context.height / 2,
                 decoration: const BoxDecoration(
                   gradient: LinearGradient(
                     begin: Alignment.topCenter,
