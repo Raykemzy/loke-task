@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:for_loke/core/theme_extensions.dart';
+import 'package:for_loke/core/context_extensions.dart';
 import 'package:for_loke/gen/assets.gen.dart';
 import 'package:for_loke/presentation/home_view.dart';
 import 'package:for_loke/presentation/widgets/nav_bar_item.dart';
@@ -22,6 +22,7 @@ class _NavBarState extends State<NavBar> {
       bottomNavigationBar: NavigationBar(
         height: 80.h,
         selectedIndex: selectedIndex,
+        indicatorColor: Colors.transparent,
         backgroundColor: context.theme.colorScheme.surface,
         labelBehavior: NavigationDestinationLabelBehavior.alwaysHide,
         destinations: [

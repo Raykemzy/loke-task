@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:for_loke/core/theme_extensions.dart';
+import 'package:for_loke/core/context_extensions.dart';
 import 'package:for_loke/presentation/widgets/app_svg_widget.dart';
 
 class AppNavBarItem extends StatelessWidget {

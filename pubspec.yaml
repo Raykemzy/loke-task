@@ -39,7 +39,7 @@ flutter:
         - asset: assets/fonts/proximanova-semibold.otf
           weight: 600
         - asset: assets/fonts/proximanova-regular.otf
-          weight: 600
+          weight: 400
         - asset: assets/fonts/proximanova-regularit.otf
-          weight: 600
+          weight: 400
           style: italic

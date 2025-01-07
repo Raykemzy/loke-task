@@ -64,7 +64,7 @@ class AppTheme {
       bodyMedium: TextStyle(
         fontFamily: _defaultFontFamily,
         fontSize: _bodyMediumFontSize,
-        fontWeight: FontWeight.w400,
+        fontWeight: FontWeight.w500,
       ),
     ),
   );
